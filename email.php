@@ -9,5 +9,7 @@ $body = "Name: ".$name."\nEmail: ".$email."\nMessage: ".$message;
 $headers = "From: " . $email;
 
 //send email
+// if (isset($_POST['submit'])){
 mail($to, $subject, $body, $headers);
+// }
 ?>

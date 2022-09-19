@@ -15,6 +15,11 @@
     />
   </head>
   <body>
+    <div class="alert">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+      <strong>Thank You!</strong> Your message has been sent
+    </div>
+
     <div class="spinner-container">
       <div class="circles">
         <div></div>
@@ -56,9 +61,9 @@
           <li class="menu-item">
             <a href="#aboutme" class="menu-link" data-content="About Me">About Me</a>
           </li>
-          <li class="menu-item">
+          <!-- <li class="menu-item">
             <a href="#experiences" class="menu-link" data-content="Experiences">Experiences</a>
-          </li>
+          </li> -->
           <li class="menu-item">
             <a href="#tribunal" class="menu-link" data-content="Years">Years</a>
           </li>
@@ -71,8 +76,8 @@
         </ul>
         <div class="social-media">
           <a href="https://www.linkedin.com/in/kai-hoenshell-1026001ab?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2Bn6%2B4i6KS6uuuz4wOio0Dw%3D%3D"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/hiaxk/"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/KaaiiH"><i class="fab fa-github"></i></a>
         </div>
       </section>
 
@@ -98,7 +103,7 @@
               <h3>Birthplace</h3>
             </div>
             <p class="service-text">
-              I was born in raised in the north side of Columbus Ohio. I grew up going to columbus city schools and I and graduated from Columbus Alternative High School.
+              I was born in raised in the north side of Columbus Ohio. 
             </p>
           </div>
           <div class="service">
@@ -107,7 +112,7 @@
               <h3>Work Experience</h3>
             </div>
             <p class="service-text">
-              I'm currently on my 2nd Rotation at GE Appliances
+              I've completed 2 rotations at GE Appliances in Louiville Kentucky working on Embedded Systems'
             </p>
           </div>
           <div class="service">
@@ -138,7 +143,7 @@
               <h3>Future</h3>
             </div>
             <p class="service-text">
-              Cyborgs and cybernetic technology has always inteterests me, and seeing the leaps of progress in technology in the past decade inspires me to make it cyborgs a reality.
+              I'm excited and curious to explore what all I can do with my Computer Science Major in College. Currently I'm dabbling with Game and Web Development
             </p>
           </div>
           <div class="about-us-img-wrapper">
@@ -182,13 +187,13 @@
           </div>
           <div class="card" data-tilt>
             <div class="card-img-wrapper">
-              <img src="images/johndoe.jpg" alt="Architect" />
+              <img src="images/headshot.jpg" alt="Architect" />
             </div>
             <div class="card-info">
               <h2>Year 3</h2>
               <h3>2022-2023</h3>
               <p>
-                Not there yet!
+                Currently in my 3rd Year
               </p>
               <button>Read More</button>
             </div>
@@ -209,7 +214,7 @@
             </div>
             <div class="card-info">
               <h2>Engineering Diplomats</h2>
-              <h3>Fall 2022</h3>
+              <h3>Fall 2021</h3>
               <p>
                 I was able to mentor International Student from China
               </p>
@@ -224,7 +229,7 @@
           <div class="contact-right">
             <a name="contact"></a>
             <h1 class="contact-heading">Contact Me</h1>
-            <form enctype="multipart/form-data" id="frmemail">
+            <form enctype="multipart/form-data" id="frmemail" method="post" >
               <div class="input-group">
                 <input type="text" class="field" name="user_name"/>
                 <label class="input-label" for="name" name="name">Full Name</label>
@@ -237,11 +242,13 @@
                 <textarea class="field" name="user_message"></textarea>
                 <label class="message" for="msg" name="msg">Message</label>
               </div>
-              <input type="submit" class="submit-btn" value="Submit" />
-            </form>
+              <button type="submit" class="submit" value="Submit" >Submit</button>
+              <p class="contact-email">Or contact me at <strong>hoenshka@mail.uc.edu</strong> with professional offers</p>
+              </form>
           </div>
         </div>
       </section>
+
 
       <footer class="footer">
         <div class="footer-content">
@@ -250,8 +257,8 @@
           </p>
           <div class="social-list">
             <a href="https://www.linkedin.com/in/kai-hoenshell-1026001ab?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2Bn6%2B4i6KS6uuuz4wOio0Dw%3D%3D"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/hiaxk/"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/KaaiiH"><i class="fab fa-github"></i></a>
           </div>
         </div>
       </footer>

@@ -767,7 +767,7 @@ html {
   font-size: 1.2rem;
 }
 
-.submit-btn {
+.submit {
   width: 45rem;
   height: 5rem;
   background-color: rgb(206, 7, 7);
@@ -974,7 +974,7 @@ html {
     max-width: 55rem;
   }
 
-  .submit-btn {
+  .submit {
     width: 55rem;
   }
 
@@ -1009,7 +1009,7 @@ html {
     max-width: 35rem;
   }
 
-  .submit-btn {
+  .submit{
     width: 35rem;
   }
 }
@@ -1035,4 +1035,35 @@ html {
   .footer {
     height: 18rem;
   }
+}
+
+.alert {
+  padding: 16px;
+  font-size: large;
+  background-color: rgb(206, 7, 7);
+  color: white;
+  text-align: center;
+  display: none;
+  position: static;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.contact-email {
+  font-size: medium;
+  padding-top: 10px;
+  text-align: center;
 }
