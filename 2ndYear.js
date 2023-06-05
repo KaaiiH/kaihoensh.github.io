@@ -49,4 +49,4 @@ const SophmoreYearPage = ({ location }) => (
   </Layout>
 )
 
-export default FreshmanYearPage
+export default SophmoreYearPage
