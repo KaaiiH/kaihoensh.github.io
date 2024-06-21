@@ -316,7 +316,7 @@
 
       if (this.settings.axis !== null) {
         console.warn(
-          "Tilt.js: the axis setting has been renamed to disableAxis. See https://github.com/gijsroge/tilt.js/pull/26 for more information"
+          "Tilt.js: the axis setting has been renamed to disableAxis."
         );
         this.settings.disableAxis = this.settings.axis;
       }

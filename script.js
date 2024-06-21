@@ -32,7 +32,6 @@ $(document).ready(function() {
     })
 
 document.querySelector(".submit").addEventListener("onclick", () => {
-  console.log("HAIIIII");
   document.getElementsByName('user_name').values=''; 
   document.getElementsByName('user_email').values=''; 
   document.getElementsByName('user_message').values=''; 

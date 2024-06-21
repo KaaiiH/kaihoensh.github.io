@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "index"
 
-const PreJuniorYearPage = ({ location }) => (
+const JuniorYearPage = ({ location }) => (
   <Layout location={location}>
     <section className="page-section about-heading">
       <div className="container">
@@ -49,4 +49,4 @@ const PreJuniorYearPage = ({ location }) => (
   </Layout>
 )
 
-export default PreJuniorYearPage
+export default JuniorYearPage
