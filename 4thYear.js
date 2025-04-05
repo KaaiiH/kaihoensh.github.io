@@ -10,7 +10,7 @@ const JuniorYearPage = ({ location }) => (
             <div className="col-xl-12 mx-auto">
               <div className="bg-faded rounded p-5">
                 <h2 className="section-heading mb-4">
-                  <span className="section-heading-upper">3nd Year</span>
+                  <span className="section-heading-upper">4th Year</span>
                   <span className="section-heading-lower">Year in review</span>
                 </h2>
                 <p>
